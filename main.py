@@ -15,11 +15,11 @@ from aiogram.types import FSInputFile, Message, BufferedInputFile
 # =========================
 # CONFIG
 # =========================
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-REQUEST_DELAY_SECONDS = float(os.getenv("REQUEST_DELAY_SECONDS", "1.2"))
-HTTP_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "25"))
-MAX_LINKS_PER_REQUEST = int(os.getenv("MAX_LINKS_PER_REQUEST", "500"))
-MAX_TEXT_CHARS = int(os.getenv("MAX_TEXT_CHARS", "50000"))
+BOT_TOKEN = "7923754810:AAEdfhrn8n7k-6WOSjV9OGEigP9uRYSrjk0"
+REQUEST_DELAY_SECONDS = 1.2
+HTTP_TIMEOUT = 25
+MAX_LINKS_PER_REQUEST = 500
+MAX_TEXT_CHARS = 50000
 
 # =========================
 # LOGGING
